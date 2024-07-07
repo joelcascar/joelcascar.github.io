@@ -6,13 +6,12 @@ h1{
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .contenedor .imagen{
     width: 400px;
     height: 500px;
-    position: absolute;
-    left: 32%;
-
 }
